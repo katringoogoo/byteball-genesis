@@ -1,0 +1,29 @@
+{
+  "name": "byteball-genesis",
+  "description": "Byteball genesis wallet",
+  "author": "Byteball",
+  "version": "0.1.7",
+  "main": "start.js",
+  "keywords": [
+    "witness",
+    "byteball"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git@github.com:eaglo/byteball-genesis.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/eaglo/byteball-genesis/issues"
+  },
+  "browser": {
+    "request": "browser-request",
+    "secp256k1": "secp256k1/js"
+  },
+  "dependencies": {
+    "headless-byteball": "git+https://github.com/byteball/headless-byteball.git",
+    "mv": "^2.1.1",
+    "password-generator": "^2.1.0",
+    "threads": "^0.8.1"
+  }
+}
